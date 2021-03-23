@@ -1,0 +1,8 @@
+rcm toroid turn setup
+
+read semaphore: 5976----->uint16------>size1
+command: 2800
+write in 4999------->2800----->semaphore------->channel-------->toroid num---->uint16------>size4
+
+read in 5124-------->uint16--------->size4
+
